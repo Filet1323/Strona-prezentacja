@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="Test Harness.exe" version="1.0.0.4" publicKeyToken="beee95640dc8661d" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Test Harness" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="Test Harness.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          Opcje manifestu kontroli konta użytkownika
+          Jeśli chcesz zmienić poziom kontroli konta użytkownika systemu Windows, zastąp węzeł 
+          requestedExecutionLevel jednym z następujących.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         Jeśli chcesz użyć wirtualizacji plików i rejestru do celów zgodności wstecznej, 
+         usuń węzeł requestedExecutionLevel.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Queens_ImageControl.dll" size="24576">
+      <assemblyIdentity name="Queens_ImageControl" version="1.0.7473.37115" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>dVYi9jRGnBGIa/hgZgiGl/dtbLQ=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Test Harness.exe" size="22464">
+      <assemblyIdentity name="Test Harness" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>3vN0+1F4W5vbzuPU1bkenPFhluU=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=DESKTOP-B6RALKF\Jakub" issuerKeyHash="35e0d9d4fb8364f31c2127893971c75e4084815b" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>0H1VhPo0vHfq7QGxRTd/TabqfMs=</DigestValue></Reference></SignedInfo><SignatureValue>mRrtaOc3LqqPsAvpJyhDshVnoZx2bfXTy4lAxrL2bdPzISH+uahubMWy6o03P4v9ASWanpyZ+qQT6MIjOFx41QvZ0qY5BzHFZRl/B8ycHT2t5RuQLvLk2xrEp7jxYXu2I+nx4ax2PEfhwOIdgyU3AjaytovpK3P+iti3tRjO2eU=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>oroQoBLSJRGz3d+7okIA4bfncGqb55bx+y3Yu7WUwknjYSZ59dcANKC6hU0TTAP1M/aSGBLRcJAWAuB6MTN3XCGYO7pNLuu2HbL3gfg0IvPebc7+IYpUR0YPWNmNm7bWQiMx7dSBph8hYJvZW6jHfLuRZFeFV0+42WcZ0hZki4U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="cb7ceaa64d7f3745b101edea77bc34fa84557dd0" Description="" Url=""><as:assemblyIdentity name="Test Harness.exe" version="1.0.0.4" publicKeyToken="beee95640dc8661d" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=DESKTOP-B6RALKF\Jakub</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>6s015fzz9P8GPosEmwbaILKMipM=</DigestValue></Reference></SignedInfo><SignatureValue>K9+hHMqeMJUfMYVjC3kLNfYDbVbMmigh4jXGEPdgJqsJe2+le8Ho9ZR8xStm4V5PEADwuaqUxF5bFk1LAzJ/ls9ZpKSu+uDQLrj8KdZOtE8vSt6OHYY2u13o/q/fSx//f99YhjauJuiMV7UyXBsWv4Mi34df5BdE6/LnbsNgtl8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>oroQoBLSJRGz3d+7okIA4bfncGqb55bx+y3Yu7WUwknjYSZ59dcANKC6hU0TTAP1M/aSGBLRcJAWAuB6MTN3XCGYO7pNLuu2HbL3gfg0IvPebc7+IYpUR0YPWNmNm7bWQiMx7dSBph8hYJvZW6jHfLuRZFeFV0+42WcZ0hZki4U=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQHZnPVkgYQptAYtx3VkongTANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEIANgBSAEEATABLAEYAXABKAGEAawB1AGIwHhcNMjAwNjE3MTYyNzIwWhcNMjEwNjE3MjIyNzIwWjA1MTMwMQYDVQQDHioARABFAFMASwBUAE8AUAAtAEIANgBSAEEATABLAEYAXABKAGEAawB1AGIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAKK6EKAS0iURs93fu6JCAOG353Bqm+eW8fst2Lu1lMJJ42EmefXXADSguoVNE0wD9TP2khgS0XCQFgLgejEzd1whmDu6TS7rth2y94H4NCLz3m3O/iGKVEdGD1jZjZu21kIjMe3UgaYfIWCb2Vuox3y7kWRXhVdPuNlnGdIWZIuFAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAZ+WcCCnhK0sUx6TIrCuh7LCku/N67u0qayJ892H4jWTsIiozslt+PsjMkM06XY7jGtMcvMRb6lf2l7gxSdpIwhW+VM+Q7edP9rbomy+G9YUWD3dgxKEehD3skP1StoRyGWQ/c+09vWkqhGjmPYZ2Kq8wy1nnv2F15W67WXE/+uA=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

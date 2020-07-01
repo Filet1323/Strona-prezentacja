@@ -1,0 +1,12 @@
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\bin\Debug\Queens_ImageControl.dll
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\bin\Debug\Queens_ImageControl.pdb
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\bin\Debug\Queens_ImageControl.xml
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.vbprojAssemblyReference.cache
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.ImageControl.resources
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.Resources.resources
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.DrawingBoard.resources
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.vbproj.GenerateResource.cache
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.vbproj.CoreCompileInputs.cache
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.dll
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.xml
+C:\Users\Jakub\Desktop\Queens_ImageControl_VS2005\Queens_ImageControl\obj\Debug\Queens_ImageControl.pdb

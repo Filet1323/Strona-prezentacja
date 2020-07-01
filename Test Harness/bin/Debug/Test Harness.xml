@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+Test Harness
+</name>
+</assembly>
+<members>
+<member name="T:Test_Harness.My.Resources.Resources">
+<summary>
+  Klasa zasobu wymagająca zdefiniowania typu do wyszukiwania zlokalizowanych ciągów itd.
+</summary>
+</member>
+<member name="P:Test_Harness.My.Resources.Resources.ResourceManager">
+<summary>
+Zwraca buforowane wystąpienie ResourceManager używane przez tę klasę.
+</summary>
+</member>
+<member name="P:Test_Harness.My.Resources.Resources.Culture">
+<summary>
+  Przesłania właściwość CurrentUICulture bieżącego wątku dla wszystkich
+  przypadków przeszukiwania zasobów za pomocą tej klasy zasobów wymagającej zdefiniowania typu.
+</summary>
+</member>
+<member name="M:Test_Harness.Form1.Button1_Click(System.Object,System.EventArgs)">
+
+ Button1_Click
+
+</member>
+<member name="M:Test_Harness.Form1.Button2_Click(System.Object,System.EventArgs)">
+
+ Button2_Click
+
+</member>
+<member name="M:Test_Harness.Form1.Button3_Click(System.Object,System.EventArgs)">
+
+ Button3_Click
+
+</member>
+<member name="M:Test_Harness.Form1.ComboBox1_SelectedIndexChanged(System.Object,System.EventArgs)">
+
+ ComboBox1_SelectedIndexChanged
+
+</member>
+<member name="M:Test_Harness.Form1.Button4_Click(System.Object,System.EventArgs)">
+
+ Button4_Click
+
+</member>
+<member name="M:Test_Harness.Form1.CheckBox2_CheckedChanged(System.Object,System.EventArgs)">
+
+ CheckBox2_CheckedChanged
+
+</member>
+<member name="M:Test_Harness.Form1.Button5_Click(System.Object,System.EventArgs)">
+
+ Button5_Click
+
+</member>
+<member name="M:Test_Harness.Form1.Button6_Click(System.Object,System.EventArgs)">
+
+ Button6_Click
+
+</member>
+<member name="M:Test_Harness.Form1.RadioButton1_CheckedChanged(System.Object,System.EventArgs)">
+
+ RadioButton1_CheckedChanged
+
+</member>
+<member name="M:Test_Harness.Form1.Button7_Click(System.Object,System.EventArgs)">
+
+ Button7_Click
+
+</member>
+</members>
+</doc>
